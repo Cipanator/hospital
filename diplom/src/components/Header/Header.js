@@ -3,18 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styles from "./Header.module.css";
+import { Header0 } from './Header0';
 export function Header() {
     return (
         <>
-            <div>
-                <Container>
-                    <div className={styles.wrapper}>
-                        <div className={styles.logo}>1</div>
-                        <div className={styles.number}><a href='tel:+79218491015'>+7(921)849-10-15</a></div>
-                        <div className={styles.getServiceBtn}>1</div>
-                    </div>
-                </Container>
-            </div>
+           <Header0 />
             <Navbar bg="dark" variant='dark' expand="lg">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

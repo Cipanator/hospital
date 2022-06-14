@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.phone {
+    color: #212529 !important;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.phone:hover {
+    color: #212529 !important;
+}
+
+.logo {
+    display: flex;
+}
+.icon {
+    position: absolute;
+    top: -100px;
+}
+.number {
+    position: relative;
+}
