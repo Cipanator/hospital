@@ -6,8 +6,8 @@ export function Header0() {
         <Container>
             <div className={styles.wrapper}>
                 <div className={styles.logo}><img src='./image/Frame_2.png'></img></div>
-                <div className={styles.number}><span><FaPhoneAlt/></span><a className={styles.phone} href='tel:+79218491015'>+7(921)849-10-15</a></div>
-                <div className={styles.getServiceBtn}>1</div>
+                <div className={styles.number}><span className={styles.icon}><FaPhoneAlt/></span><a className={styles.phone} href='tel:+79218491015'>+7(921)849-10-15</a></div>
+                <div className={styles.getServiceBtn}><a className={styles.btn}>Запись на прием</a></div>
             </div>
         </Container>
     )
