@@ -1,0 +1,19 @@
+.dropdown div {
+    position: absolute !important;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: #212529;
+  }
+  .number {
+    color: #212529;
+  }
