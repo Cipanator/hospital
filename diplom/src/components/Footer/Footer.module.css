@@ -1,0 +1,32 @@
+.btn {
+    padding: 10px 15px;
+    background-color: #212529;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: 0.35s;
+    display: inline-flex;
+    background-color: white;
+    color:#212529;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: #30353a;
+}
+.wrapper {
+    display: flex;
+}
+.left,.right{
+ width: 50%;
+ 
+}
+.footer {
+background-color: #212529;
+color: white
+}
